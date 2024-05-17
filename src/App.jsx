@@ -4,7 +4,7 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import Courses from "./courses/Courses";
 import Signup from "./components/Signup";
 import { Toaster } from "react-hot-toast";
-import { useAuth } from "../../Frontend/src/context/Authprovider";
+import { useAuth } from "../src/context/Authprovider";
 
 function App() {
   const [authUser, setAuthUser] = useAuth();
